@@ -1,8 +1,9 @@
 import { createStore } from "vuex"
+import plans from "@/assets/data.json"
 
 const store = createStore({
   state: {
-    count: 0,
+    plans,
   },
 })
 
