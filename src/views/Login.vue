@@ -5,7 +5,7 @@
       :style="{
         maxWidth: '126px',
         height: 'auto',
-        marginTop: '187px',
+        marginTop: '50px',
         marginBottom: '32px',
       }"
       alt="Vídeo"
