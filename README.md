@@ -1,24 +1,36 @@
-# locaweb
+# Locaweb
 
-## Project setup
-```
+Registration and choice of hosting plan.
+
+## Resources
+
+- Vue.js
+- Javascript.
+
+## Install
+
+Instructions for installing your project.
+
+```bash
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
+## Use
+
+Instructions for using your project.
+
+```bash
 npm run serve
 ```
 
 ### Compiles and minifies for production
+
 ```
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
 ### Customize configuration
+
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+MIT © @cleissont
