@@ -19,23 +19,34 @@
             >Para acessar sua conta informe seu e-mail e senha</span
           >
         </div>
-        <div class="input-field">
-          <label for="email">E-mail</label>
-          <input type="email" id="email" placeholder="Seu e-mail" />
+        <div class="mb-3 label-login">
+          <label for="email" class="form-label">E-mail</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Seu e-mail"
+            aria-describedby="emailHelp"
+          />
         </div>
-
-        <div class="input-field">
-          <label for="password">Senha</label>
-          <input type="password" id="password" placeholder="Sua senha" />
+        <div class="mb-2 label-login">
+          <label for="password" class="form-label">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="password"
+            placeholder="Sua senha"
+          />
         </div>
         <div class="forgot-password">
           <span class="text-forgot-password">Esqueci minha senha</span>
         </div>
-        <router-link to="/home"
-          ><button class="button-login">
-            <span>FAZER LOGIN</span>
-          </button></router-link
-        >
+
+        <div class="d-grid gap-2">
+          <router-link to="/home">
+            <button class="button-login" type="submit">FAZER LOGIN</button>
+          </router-link>
+        </div>
       </div>
     </div>
 
@@ -89,30 +100,11 @@
   .text-forgot-password {
     color: #515d74;
   }
-  input {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    min-height: 30px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    margin-bottom: 20px;
-  }
 
-  .input-field {
+  .label-login {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    height: 80px;
-    width: 96%;
-  }
-
-  label {
-    margin-bottom: 5px;
-  }
-
-  span {
-    width: 80%;
   }
 
   .forgot-password {

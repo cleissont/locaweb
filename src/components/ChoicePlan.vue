@@ -1,6 +1,6 @@
 <template>
   <div
-    class="container-choice-plan flex-1"
+    class="container-choice-plan column"
     v-for="(plan, index) in plans"
     :key="index"
   >
