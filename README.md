@@ -5,7 +5,7 @@ Registration and choice of hosting plan.
 ## Resources
 
 - Vue.js
-- Javascript.
+- Javascript
 
 ## Install
 

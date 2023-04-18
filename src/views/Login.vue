@@ -31,14 +31,20 @@
         <div class="forgot-password">
           <span class="text-forgot-password">Esqueci minha senha</span>
         </div>
-        <button class="button-login"><span>FAZER LOGIN</span></button>
+        <router-link to="/home"
+          ><button class="button-login">
+            <span>FAZER LOGIN</span>
+          </button></router-link
+        >
       </div>
     </div>
 
     <div class="box-register">
       <span class="sub-title"
         >Ainda não tem conta?
-        <span class="text-register">Cadastre-se</span></span
+        <router-link to="/plan"
+          ><span class="text-register">Cadastre-se</span></router-link
+        ></span
       >
     </div>
   </div>
